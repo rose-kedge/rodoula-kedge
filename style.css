@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    text-align: center;
+    background-color: whitesmoke;
+    color: gray;
+}
+
+img {
+    border-radius: 20%;
+}
+
+h1 {
+    color: gray;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+h2 {
+    color: gray;
+}
+
+/* Custom Design with Class */
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px 0px;
+    text-align: center;
+    font-size: larger;
+    list-style: none;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn-grey {
+    background-color: grey;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+
+}
+
+.btn-grey:hover {
+    background-color: blue;
+    color: white;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+    list-style: none;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+    font-size: 50px;
+    color: blue;
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
+
+.list-text {
+    list-style: none;
+}
+.card-white p {
+    margin: 0.1px;
+    
+}
+
+.card-white {
+    list-style: none;
+}
+ul li {
+    list-style: none;
+}
+.card-white{
+    width: 700px;
+    margin: 40 px
+    auto;
+}
+
+.card-blue {
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+margin: 20px 0px;
+text-align: center;
+font-size: larger;
+list-style: none; 
+width: 700px;
+margin: 40px auto;
+}
